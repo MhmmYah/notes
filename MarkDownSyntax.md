@@ -9,7 +9,6 @@ newline\
 **bold text**\
 *italicized text*\
 ~~Strike through~~\
-<mark>Highlight</mark>\
 This<sub>subscripts</sub>Words\
 This<sup>superscripts</sup>Words\
 Adding emojis :joy:
