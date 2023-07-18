@@ -1,7 +1,10 @@
-# H1
-## H2
-### H3
+# This is a rundown of simple github flavoured markdown
 
+# H1 header
+## H2 header
+### H3 header
+
+\ <= placed before markdown syntax to ignore
 newline\
 **bold text**\
 *italicized text*\
@@ -24,7 +27,7 @@ Adding emojis :joy:
 - order
 
 `System.out.println("Code");`\
-`return more code`
+`returns inline code`
 
 Horizontal Rule (Interesting, it makes it a H2)
 ---
@@ -35,10 +38,10 @@ Horizontal Rule (Interesting, it makes it a H2)
 ![Image info](./MDImages/GrandRapids.png)
 
 |Table | And stuff|
-|-|-|
-|Item 1 | asdf |
-|Item 2 | asdf2 |
-|Lines necessary|```|-|-|```| 
+|-|:-:|-:|
+|Item 1 | asdf | whee |
+|Item 2 | asdf2 | whoo |
+|Lines necessary| \|\-\|\-\| | yah |  
 
 ```
 FencedCode = 
@@ -51,7 +54,7 @@ FencedCode =
 Adding footnotes are easy too. [^1]
 [^1]: Match it with the right number.
 
-### Heading ID {#thisis-id}
+### Heading ID {#this-id-will-show-in-url-bar-instead-of-Heading-ID}
 
 Lets define
 : This is the definition
