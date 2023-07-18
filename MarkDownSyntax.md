@@ -36,7 +36,7 @@ Horizontal Rule (Interesting, it makes it a H2)
 
 ![Image info](./MDImages/GrandRapids.png)
 
-|Table | And stuff|
+|Table | And stuff| And stuff|
 |-|:-:|-:|
 |Item 1 | asdf | whee |
 |Item 2 | asdf2 | whoo |
