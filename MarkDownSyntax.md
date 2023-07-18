@@ -9,7 +9,7 @@ newline\
 <mark>Highlight</mark>\
 This<sub>subscripts</sub>Words\
 This<sup>superscripts</sup>Words\
-Adding emojis :joy:\
+Adding emojis :joy:
 
 
 > block quote:\
@@ -23,14 +23,14 @@ Adding emojis :joy:\
 - without
 - order
 
-`System.out.println("Code");`
+`System.out.println("Code");`\
 `return more code`
 
 Horizontal Rule (Interesting, it makes it a H2)
 ---
 
-[link](https://www.google.com)
-[link again](
+[link](https://www.google.com)\
+[link again](https://github.com)
 
 ![Image info](./MDImages/GrandRapids.png)
 
@@ -38,7 +38,7 @@ Horizontal Rule (Interesting, it makes it a H2)
 |-|-|
 |Item 1 | asdf |
 |Item 2 | asdf2 |
-|Lines necessary|`|-|-|`| 
+|Lines necessary|```|-|-|```| 
 
 ```
 FencedCode = 
@@ -57,5 +57,5 @@ Lets define
 : This is the definition
 
 - [x] Add some tasks
-- [] Add more tasks
-- [] Tell me when done
+- [ ] must contain either space
+- [ ] or contain an 'x'
