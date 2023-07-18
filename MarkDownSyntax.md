@@ -55,9 +55,6 @@ Adding footnotes are easy too. [^1]
 
 ### Heading ID {#this-id-will-show-in-url-bar-instead-of-Heading-ID}
 
-Lets define
-: This is the definition
-
 - [x] Add some tasks
 - [ ] must contain either space
 - [ ] or contain an 'x'
