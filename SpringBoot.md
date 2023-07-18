@@ -3,10 +3,9 @@ SpringBoot
 ![Thank you Dan Vega](https://www.youtube.com/watch?v=UgX5lgv4uVM&t=4377s)
 
 ### Starting a Spring Boot project
-Go to the following link to quickly set up a Spring Boot project:\
-![Spring Initializr](start.spring.io)\
+Go to ![Spring Initializr](start.spring.io) to quickly set up a Spring Boot project:\
 
-Some terms:\
+Some terms:
 - Project: Builder for project
 - Language: Programming language supported
 - Spring Boot: Version, usually just use the default
@@ -24,7 +23,7 @@ Some terms:\
 Once filled out, click the `Generate` button. It will download a zip file that can be unzipped to show the framework.
 
 ### Understanding the Spring Boot Project
-Here are some terms to know in the pom.xml\
+Here are some terms to know in the pom.xml
 - It defines the project metadata, and version of the project.
 - It lists the java version being used
 - It lists the dependencies to pull and use
