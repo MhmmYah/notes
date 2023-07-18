@@ -2,16 +2,17 @@
 ## H2
 ### H3
 
-**bold text**
-*italicized text*
-~~Strike through~~
-==Highlight==
-This~subscripts~Words
-This^superscripts^Words
-Adding emojis :joy:
+newline\
+**bold text**\
+*italicized text*\
+~~Strike through~~\
+<mark>Highlight</mark>\
+This<sub>subscripts</sub>Words\
+This<sup>superscripts</sup>Words\
+Adding emojis :joy:\
 
 
-> block quote:
+> block quote:\
 > This is the Loreum Ipsum stuff that noone reads
 
 1. List
@@ -23,17 +24,21 @@ Adding emojis :joy:
 - order
 
 `System.out.println("Code");`
+`return more code`
 
 Horizontal Rule (Interesting, it makes it a H2)
 ---
 
 [link](https://www.google.com)
+[link again](
 
 ![Image info](./MDImages/GrandRapids.png)
 
 |Table | And stuff|
+|-|-|
 |Item 1 | asdf |
 |Item 2 | asdf2 |
+|Lines necessary|`|-|-|`| 
 
 ```
 FencedCode = 
@@ -46,11 +51,11 @@ FencedCode =
 Adding footnotes are easy too. [^1]
 [^1]: Match it with the right number.
 
-### Heading ID {#Im-not-sure-what-this-is}
+### Heading ID {#thisis-id}
 
 Lets define
 : This is the definition
 
-- [] Add some tasks
+- [x] Add some tasks
 - [] Add more tasks
 - [] Tell me when done
