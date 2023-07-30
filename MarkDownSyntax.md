@@ -40,7 +40,7 @@ Horizontal Rule (Interesting, it makes it a H2)
 |-|:-:|-:|
 |Item 1 | asdf | whee |
 |Item 2 | asdf2 | whoo |
-|Lines necessary| \|\-\|\-\| | yah |  
+|Lines necessary| \|-\|-\| | yah |  
 
 ```
 FencedCode = 

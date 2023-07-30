@@ -1,6 +1,7 @@
 SpringBoot
 ---
-[Thank you Dan Vega](https://www.youtube.com/watch?v=UgX5lgv4uVM&t=4377s)
+[Thank you Dan Vega](https://www.youtube.com/watch?v=UgX5lgv4uVM&t=4377s) \
+[Documentation for Springboot](https://docs.spring.io/spring-framework/reference/)
 
 ### Starting a Spring Boot project
 Go to [Spring Initializr](start.spring.io) to quickly set up a Spring Boot project
@@ -46,6 +47,9 @@ public class ExampleClass {
 }
 ```
 
+- If we want to list all the beans in an application, we can also do \
+ `Arrays.stream(context.getBeanDefinitionNames()).foreach(System.out::println)`
+
 #### Folder Structure:
 - .idea : For intellij idea
 - .mvn : maven wrapper that allows the program to run without user installing maven
@@ -62,7 +66,6 @@ Within the src folder there are other folders
     - java > com.example.package (main package)
         - **Application: Houses `public static void main`, the main function.
         - Try crete everything here, sub packages, classes, etc.
-        - 
 
 #### pom.xml
 Here are some terms to know in the pom.xml
@@ -70,4 +73,28 @@ Here are some terms to know in the pom.xml
 - It lists the java version being used
 - It lists the dependencies to pull and use
   - We may see artifactID's: something-something-starter. These are links to other xml files that's needed for the dependency above.
- 
+
+#### Using Java's record class
+```
+public record Content (
+    Integer id,
+    String title,
+    Yoruclass myclass
+){}
+```
+Will create an  immutable class that auto fills the:
+-  constructor (can still overload and define)
+    -  Defining default
+```
+public Content{
+   Objects.requireNonNull(id),
+   Objects.requireNonNull(title),
+   Objects.requireNonNull(myclass)
+}
+```
+    - Overloading  
+
+    
+-  getter
+-  equals (everything must match for it to be equal)
+-  tostring (returns everything as a string e.g. Class[id=id, title=name\] 
